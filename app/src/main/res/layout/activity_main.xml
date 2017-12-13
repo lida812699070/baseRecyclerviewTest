@@ -40,6 +40,12 @@
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:title="@string/app_name" />
 
+            <ImageView
+                app:layout_collapseMode="pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+
         </android.support.design.widget.CollapsingToolbarLayout>
 
     </android.support.design.widget.AppBarLayout>

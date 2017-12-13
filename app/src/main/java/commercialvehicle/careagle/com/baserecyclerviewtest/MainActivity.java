@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         mToolbarTb = (Toolbar) findViewById(R.id.tb_toolbar);
         if (mToolbarTb !=null) {
             setSupportActionBar(mToolbarTb);
-            getSupportActionBar().setHomeButtonEnabled(true);
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//            getSupportActionBar().setHomeButtonEnabled(true);
+//            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
 }
